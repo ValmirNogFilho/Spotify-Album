@@ -1,0 +1,91 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: FlowCircularBold;
+    src: url(../Circular/CircularStd-Bold.otf);
+}
+
+@font-face {
+    font-family: FlowCircularLight;
+    src: url(../Circular/CircularStd-Light.otf);
+}
+
+.top-part {
+    width: 100%;
+    height: 40%;
+    display: block;
+    align-items: center;
+    background: linear-gradient(0deg, #212121,#f50057);
+    text-align: center;
+}
+
+a {
+    color: #eee;
+}
+
+body {
+    background-color: #212121;
+    font-family: FlowCircularBold;
+    color: #eee;
+}
+
+.circularbold{
+    font-family: FlowCircularBold;
+}
+
+.circularlight{
+    font-family: FlowCircularLight;
+}
+
+.top-part img {
+    padding-top: 13%;
+    width: 35%;
+}
+
+.top-part a {
+    margin-top: 30px;
+}
+
+.song-block {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.row .col.s10 {
+    margin-left: 0;
+}
+
+.song, .artist {
+    margin: 0;
+}
+
+a:hover {
+    transition: 0.5s;
+    transform: scale(0.99);
+}
+
+.bottom-part {
+    margin-left: 3%;
+}
+
+.band{
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    margin-top: 3%;
+}
+
+.band img {
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+.carousel h6 {
+    text-align: center;
+
+}
